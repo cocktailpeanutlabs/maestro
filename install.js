@@ -6,16 +6,16 @@ module.exports = {
         "git clone https://github.com/peanutcocktail/maestro app",
       ]
     }
-  }, {
-    method: "script.start",
-    params: {
-      uri: "torch.js",
-      params: {
-        path: "app",
-        venv: "env",
-        xformers: true
-      }
-    }
+//  }, {
+//    method: "script.start",
+//    params: {
+//      uri: "torch.js",
+//      params: {
+//        path: "app",
+//        venv: "env",
+//        xformers: true
+//      }
+//    }
   }, {
     method: "shell.run",
     params: {
